@@ -275,12 +275,11 @@ body {
 
 .food-menu-container {
   display: flex;
-  flex-wrap: wrap;
   padding: 50px 0px 30px 0px;
 }
 
 .food-menu-container img {
-  display: block;
+  display: flex;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -289,9 +288,6 @@ body {
 }
 
 .food-menu-item {
-  display: flex;
-  flex: 1 1 600px;
-  justify-content: space-evenly;
   margin-bottom: 3rem;
 }
 
@@ -327,6 +323,7 @@ body {
 .contact-container {
   display: flex;
   border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .contact-img {
@@ -340,6 +337,80 @@ body {
   object-position: center;
   object-fit: cover;
 }
+/* From Uiverse.io by Wendell47 */ 
+.btnn{
+  margin-left: 100px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: rgb(222, 0, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 0, 75, 1) 0%,
+    rgba(191, 70, 255, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+
+.button:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 .form-container {
   padding: 1rem;
@@ -641,6 +712,23 @@ color: white !important;
 }
 .about-img{
   object-fit: contain;
+}
+.food-menu-container{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  margin-left: 40px;
+  margin-right: 40px
+}
+.food-description{
+  display: flex;
+  flex-direction: column;
+}
+.button{
+  margin: 50px;
+  padding: 20px;
+  color: #ff73b9;
 }
 
 
