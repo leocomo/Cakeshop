@@ -325,7 +325,9 @@ body {
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
+.fa-tiktok{
+  font-size: 30px;
+}
 .contact-img {
   width: 50%;
 }
@@ -361,6 +363,18 @@ body {
 .button:hover {
   background: rgb(193, 228, 248);
   color: rgb(33, 0, 85);
+}
+.about-img img{
+  border-radius: 20px;
+  width: 291px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.about-img{
+ 
+  padding: 0px !important;
+  margin: 30px;
+  width: 200px !important;
+  border-radius: 20px;
 }
 
 .button:active {
@@ -715,16 +729,24 @@ color: white !important;
 }
 .food-menu-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow: scroll;
   flex-wrap: nowrap;
   margin-left: 40px;
   margin-right: 40px
 }
 .food-description{
-  display: flex;
-  flex-direction: column;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: capitalize;
 }
+.food-menu-heading{
+  font-weight: 700;
+  font-size: 40px;
+  
+}
+
 .button{
   margin: 50px;
   padding: 20px;
