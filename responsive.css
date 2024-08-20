@@ -108,7 +108,6 @@ body {
 
 .showcase-area {
   height: 20vh;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -568,7 +567,6 @@ color: white !important;
   .showcase-area{
     width: 100%;
     height: 20vh;
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
