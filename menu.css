@@ -1,12 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  margin-top: 8vh;
+  margin-top: 12dvh;
   
 }
 .navbar {
   background-color: #ff73b9;
   color: #fff;
-  padding: 16px 0;
+  padding-top: 4px;
+  padding-bottom: 16px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -54,7 +55,7 @@ body {
   border-radius: 4px;
 }
 .logo{
-  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(46% at 50% 50%);
 
 }
 .slider {
