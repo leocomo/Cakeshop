@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  margin-top: 12dvh;
+  margin-top: 10dvh;
   
 }
 .navbar {
@@ -14,6 +14,7 @@ body {
   z-index: 1000;
   left: 0;
   max-height: 30px;
+  margin: 0 auto;
 }
 
 .container {
@@ -55,7 +56,7 @@ body {
   border-radius: 4px;
 }
 .logo{
-  clip-path: circle(46% at 50% 50%);
+  clip-path: circle(44% at 50% 50%);
 
 }
 .slider {
@@ -64,6 +65,7 @@ body {
   margin: auto;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 600px;
 }
 .slides {
   display: flex;
@@ -78,7 +80,7 @@ body {
 }
 .slide img {
   width: 100%;
-  height: 70%;
+  height: 95%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -106,8 +108,7 @@ h3{
   font-size: 40px;
   text-align: center;
   color: #ff73b9;
-  margin: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 p{
   text-align: center;
@@ -117,7 +118,7 @@ p{
 }
 .heading{
   text-align: center;
-  font-size: 18px;
+  font-size: x-large;
   color: #ff73b9;
-  margin-top: 100px;
+  margin-top: 0;
 }
